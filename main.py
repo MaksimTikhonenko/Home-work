@@ -130,7 +130,6 @@ while i < 6:
   print(i)
   i += 1
 
-#Безкінченний цикл
 while True:
     is_finished = database.is_operation_completed(id='ab235df') # True or False
     if (is_finished):
