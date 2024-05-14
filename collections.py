@@ -23,14 +23,14 @@ List comprehension: - не змінює вихідний список
 result = []
 for el in x:
     result.append(el*2)
-
+---------------------
 [el*2 for el in x if el % 3 == 0]
-
+==================
 result = []
 for el in x:
     if (el % 3 == 0):
         result.append(el*2)
-
+----------------------
 
 # Dictionary (словник) - {key,value}, кожен ключ може бути доданий тільки один раз, повторне додавання з існуючим ключем переписує значення
 
